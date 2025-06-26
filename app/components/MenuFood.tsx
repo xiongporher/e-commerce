@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Marquee from "react-fast-marquee";
 import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
@@ -52,12 +51,10 @@ const MenuFood = () => {
             key={index}
             className="relative w-60 h-60 mx-4 rounded-lg shadow-lg overflow-hidden group hover:cursor-pointer"
           >
-            <Image
+            <img
               src={item.src}
               alt={item.title}
-              layout="fill"
-              objectFit="cover"
-              className="opacity-85 hover:opacity-300 transition-transform duration-300 group-hover:scale-110"
+              className="object-cover w-full h-full opacity-90 hover:opacity-100 transition-transform duration-300 group-hover:scale-110"
             />
             <div className="absolute bottom-0 left-0 right-0 bg-black/60 text-white text-center py-2 text-sm font-semibold backdrop-blur-sm">
               {item.title}
