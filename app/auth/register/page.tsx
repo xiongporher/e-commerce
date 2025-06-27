@@ -109,7 +109,7 @@ export default function RegisterForm() {
       setIsSubmitting(true);
 
       try {
-        await new Promise((res) => setTimeout(res, 2000));
+        await new Promise((res) => setTimeout(res, 1000));
 
         setSubmitSuccess(true);
 

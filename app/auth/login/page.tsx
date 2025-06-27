@@ -16,7 +16,6 @@ import {
   FaGithub,
   FaGoogle,
 } from "react-icons/fa";
-import { GrGoogle } from "react-icons/gr";
 
 const LoginForm = () => {
   const router = useRouter();
@@ -68,8 +67,8 @@ const LoginForm = () => {
         setFormData({ email: "", password: "" });
 
         setTimeout(() => {
-          setSubmitSuccess(false);
-          router.push("/dashboard");
+        setSubmitSuccess(false);
+        router.push("/dashboard");
         }, 2000);
       } catch (error) {
         console.error("Submit error:", error);
