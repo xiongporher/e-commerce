@@ -28,11 +28,11 @@ const Footer = () => {
             </li>
             <li className="flex items-center gap-2">
               <FaPhoneAlt className="text-green-400" />
-              020-2222-3333
+              02056006722
             </li>
             <li className="flex items-center gap-2">
               <FaEnvelope className="text-yellow-400" />
-              support@laopos.com
+              xiongporher1.com
             </li>
           </ul>
         </div>
